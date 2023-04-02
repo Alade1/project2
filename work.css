@@ -1,0 +1,102 @@
+:root {
+    /* Colors */
+    --main-theme-bg: #f3f3f3;
+    --main-theme-text: #21243d;
+  
+    --main-theme-dark: #01010a;
+  
+    --sec-theme-text: #00a8cc;
+    --post-bg: #afdce9;
+  
+    --btn-bg: #ff6464;
+    --btn-sec-bg: #142850;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+ }
+ a:hover{
+    color: red;
+ }
+ 
+ ul{
+ 
+     list-style-type: none;
+ }
+ 
+ ul, li, a {
+    
+     text-decoration: none;
+     color:var(--main-theme-dark);
+     font-weight: bold;
+     font-family: 'Heebo', sans-serif;
+     
+ }
+ 
+ ul, li{
+     display: flex;
+     justify-content: space-around;
+     gap: 20px;
+     margin-right: 20px; 
+ }
+
+
+
+.featured-dashboard{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+.featured-works{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    font-family: 'Heebo', sans-serif;
+
+}
+#btn-1{
+    color: white;
+    background-color: var(--btn-sec-bg);
+    border-radius: 20%;
+}
+h2{
+    color: #21243D;
+}
+#dash{
+    opacity: 0.4;
+    padding-left: 30px;
+}
+.featured-works p:first-child{
+    font-family: 'Heebo', sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+    color: #21243D;
+   
+}
+h1{
+    color:var(--main-theme-text);
+    font-size: 40px;
+    padding-left: 6rem;
+    font-family: 'Heebo', sans-serif;
+
+
+}
+footer{
+    padding-top: 6rem;
+}
+
+.social-icons{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 10px;
+    color: black;
+
+}
+#copyright{
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+
+}
