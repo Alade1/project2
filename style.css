@@ -84,12 +84,12 @@ section{
     background-color: #EDF7FA;
     padding-bottom: 20px;
     margin-top: 30px;
-    height: 300px;
+    height: 350px;
     
 }
 
 .post-1,.post-2{
-    height: 200px;
+    height: 250px;
     width: 600px;
     background-color: var(--main-theme-bg);
     padding-left: 10px;
