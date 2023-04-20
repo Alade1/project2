@@ -81,15 +81,16 @@ section{
     padding-top: 0.6rem;
 }
 .post-section{
-    background-color:  
-    #EDF7FA;
+    background-color: #EDF7FA;
     padding-bottom: 20px;
+    margin-top: 30px;
+    height: 300px;
     
 }
 
 .post-1,.post-2{
-    height: 300px;
-    width: 400px;
+    height: 200px;
+    width: 600px;
     background-color: var(--main-theme-bg);
     padding-left: 10px;
     padding-right: 10px;
@@ -97,11 +98,13 @@ section{
 
 }
 .post-content{
-    padding-left: 6rem;
-    padding-right: 6rem;
+    
     display:flex;
     align-items: center;
-    gap: 460px;   
+    justify-content: space-around;
+    gap: 200px; 
+    padding-left: 6rem;
+    padding-right:6rem;  
 
 }
 .top-post{
@@ -306,6 +309,166 @@ footer{
     *{
         overflow-x: hidden;
     }
+}
+
+    /* MEDIA QUERY FOR TABS*/
+
+    @media only screen and (min-width:767px) and (max-width:991px){
+        .logo{
+            padding-left: 20px;
+            font-size: 20px;
+        
+        }
+        ul{
+            display: none;
+        }
+        .image-1{
+            padding:0;
+            margin-top:30px;
+        }
+        .hero-intro{
+            padding:0;
+            margin-top:30px;
+            font-family: 'Heebo', sans-serif;
+            text-align: center;
+            width: 100%;
+        
+        }
+        
+        .hero-section{
+            display: flex;
+            flex-direction: column-reverse; 
+            align-items: center; 
+        }
+        .hero-image{
+            padding:0;
+        }
+        #amet{
+            font-family: 'Heebo', sans-serif;
+            font-size: 12px;
+    
+        }
+        .hero-button{
+            color:var(--main-theme-bg);
+            padding: 5px 10px;
+            background-color: var(--btn-bg);
+            border-radius: 2px;
+            font-family: 'Heebo', sans-serif; 
+            margin-top:20px;
+    
+        }
+      
+        .top-post span:nth-child(2) {
+            display: none;
+        }
+        #amet{
+            font-size: 25px;
+        }
+        
+        .post-content{
+            display:flex;
+            align-items: center;
+            flex-direction: column;  
+            gap:20px;
+            padding: 0;
+            
+            
+        }
+        
+        .post-1,.post-2{
+            height: 250px;
+            width: 80%;
+            margin: 30px;
+            padding-left:30px;
+            background-color: var(--main-theme-bg);
+            font-family: 'Heebo', sans-serif;
+        }
+        .top-post{
+            padding-left: 50px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+    
+       
+        
+       #recent{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+       }
+        .featured-dashboard{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 0;
+            margin:0;
+        }
+        .featured-works{
+            padding:0;
+            margin-left:20px;
+            margin-right:20px;
+            font-family: 'Heebo', sans-serif;
+            height:100%
+        
+        }
+        .featured-works p:first-child{
+            font-family: 'Heebo', sans-serif;
+            font-weight: medium;
+            font-size: 25px;
+            color: #21243D;
+           
+        }
+        .top-post span:first-child {
+            padding-left:10px;
+            font-family: 'Heebo', sans-serif;
+            font-size: 25px; 
+        }
+        .feature-image{
+            width:100%;
+            height: 400px;
+        }
+        #featured-statement{
+            width:100%;
+            font-size: 25px;
+        }
+        #dash{
+            opacity: 0.4;
+            padding-left: 10px;
+        }
+        .social-icons{
+            text-align: center;
+        }
+        footer{
+            padding-top:20px;
+            margin: 0;
+        }
+        
+        .social-icons{
+            text-align: center;
+            font-size: 30px;
+            letter-spacing: 10px;
+        
+        }
+        #copyright{
+            text-align: center;
+            font-family: 'Heebo', sans-serif;
+            font-size: 25px;
+
+        
+        }
+        .post-statement{
+            width:100%;
+            font-size: 25px;
+            font-family: 'Heebo', sans-serif;
+            
+        }
+        *{
+            overflow-x: hidden;
+        }
+    
+
+    
     
    
    
@@ -325,7 +488,6 @@ footer{
 
 
 }
-
 
 
 
